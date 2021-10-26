@@ -1,0 +1,219 @@
+*{
+    margin: 0;padding: 0;
+  
+}
+.logo{
+width: 20%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.logo img{
+    width: 40%;
+    border: 1px solid white;
+    border-radius: 50px;
+
+}
+.navbar{
+    display: flex;
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    /* background: none; */
+
+}
+.navlist{
+width: 70%;
+/* background-color: yellow; */
+display: flex;
+align-items: center;
+/* background: none; */
+}
+.burger{
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+    display: none;
+    }
+    .line{
+        width:33px;
+        background-color: white;
+        height: 4px;
+        margin: 5px 3px;
+    }
+.navlist li{
+list-style: none;
+padding: 0 45px;
+font-size: 20px;
+font-family: sans-serif;
+margin: 3px 0px;
+
+}
+.navlist li a:hover{
+    color: grey;
+}
+.navlist li a{
+text-decoration: none;
+color: white;
+}
+.rightnav{
+    /* background-color: aquamarine; */
+    width: 30%;
+    text-align: right;
+    padding: 0 23px;
+
+}
+#search{
+    padding: 4px 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-radius: 9px;
+}
+.background
+{
+    background: rgba(0, 0, 0, 0.7) url("https://source.unsplash.com/500x500/?building,sky");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.boxmain{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    color: white;
+    max-width: 50%;
+    margin:auto;
+    height: 80%;
+    justify-content:space-between;
+    /* height: 100vh; */
+
+}
+.firstsection{
+    height: 100vh;
+}
+.firsthalf{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 0;
+    /* text-align: center; */
+    /* padding: 70px; */
+
+}
+.secondhalf{
+    width: 30%;
+}
+.secondhalf img{
+    width: 150%;
+    border-radius: 250px;
+    display: block;
+    margin: auto;
+    padding: 80px;
+
+}
+
+.text-big{
+font-size: 50px;
+font-family: 'Ubuntu', sans-serif;
+}
+.text-small{
+    font-size: 25px;
+
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border-radius: 8px;
+    font-size: 18px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+}
+.btn-sm{
+    padding: 4px 10px;
+    vertical-align: middle;
+}
+.secright{
+   display: flex;
+   max-width: 80%;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+   padding: 98px;
+}
+
+.paras{
+    padding:  0 98px;
+
+}
+.secleft{
+    display: flex;
+    max-width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 98px;
+    flex-direction: row-reverse;
+ }
+ .secright img{
+     border-radius: 15px;
+ }
+ .secleft img{
+    border-radius: 15px;  
+ }
+ .contact{
+     background-color: rgb(249, 249, 249);
+     height: 82vh;
+ }
+ .text-center{
+     text-align: center;
+     margin: 10px 0px;
+     padding: 20px;
+
+ }
+ .form{
+     margin: 30px auto;
+     max-width: 1000px;
+     text-align: center;
+ }
+ .form input{
+     width: 100%;
+     font-size: 14px;
+     border: 2px solid gray;
+     border-radius: 6px;
+     text-align: center;
+     padding:9px
+ }
+ .dark{
+     padding: 9px;
+     border: 1px solid gray;
+    margin: 20px;
+    background: none;
+    border-radius: 6px;
+    width: 50%;
+    font-size: 20px;
+ }
+ .forminput
+ {
+ width: 100%;
+     font-size: 14px;
+     border: 2px solid gray;
+     border-radius: 6px;
+     text-align: center;
+     padding:9px
+ }
+ .foot{
+     height: 10vh;
+     /* background-color: black; */
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 30px;
+     }
+
+
+
